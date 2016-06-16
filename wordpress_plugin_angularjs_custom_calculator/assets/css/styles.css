@@ -1,0 +1,195 @@
+.fwa_calculator_container{
+    font-size: 15px;
+}
+.fwa_calculator_container .calc_section{
+    margin: 10px 0;
+}
+.fwa_calculator_container label{
+    float: left;
+    min-width: 275px;
+}
+.fwa_calculator_container table{
+    margin: auto;
+}
+.fwa_calculator_container table th{
+    text-align: center;
+}
+.fwa_calculator_container table td{
+    border: 1px solid #666666;
+    padding: 5px;
+}
+.calc-demo .contentclass {
+    background: #ffffff;
+}
+.expenses_table td{
+    background: #dddddd;
+}
+#expenses_table_div{
+    display: none;
+}
+input::-webkit-inner-spin-button, 
+input::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+    margin: 0; 
+}
+input[type='number'] {
+    -moz-appearance:textfield;
+    padding: 0 10px;
+    text-align: right;
+}
+input[type='range'] {
+    padding: 0;
+    border: none;
+    margin: 0;
+}
+input{
+    color: #000000;
+    margin-bottom: 5px;
+    background: #FFFF1D;
+}
+
+.range-container{
+    font-size: 15px;
+    margin: 0 0 5px 0;
+}
+.fwa_calculator_container .top-row {
+    position: relative;
+    margin: auto;
+    margin-bottom: 10px;
+    max-width: 1000px;
+    z-index: 2;
+}
+.fwa_calculator_container .top-row .span6{
+    padding: 0;
+}
+.calc_section h5{
+    text-align: center;
+}
+.calc_section.below-chart{
+    text-align: center;
+}
+
+.fwa_calculator_container table {
+    border-collapse: collapse;
+    font-size: 15x;
+    width: 85%;
+}
+.fwa_calculator_container table th{
+    font-size: 12px;
+    line-height: 1.2em;
+}
+.fwa_calculator_container .top-row table td {
+    padding: 5px 5px;
+    text-align: right;
+}
+.fwa_calculator_container table td:first-child {
+    text-align: left;
+}
+#chart_div_wrapper {
+        margin: 5px auto;
+        width: 1000px;
+}
+
+#chart_div_wrapper h4{   
+    margin: 0;
+    position: relative;
+    font-size: 23px;
+    font-weight: bold;
+    text-align: center;
+    z-index: 2;
+}
+
+#chart_div{
+    display: block;
+    margin: auto;
+    max-width: 100%;
+}
+
+#chart_div div{
+    margin: auto;
+    position: relative;
+    /*width: 944px;*/
+}
+
+.fwa_calculator_container #expenses_table_div{
+    display: block;
+}
+/*.fwa_calculator_container .expenses_table{
+    max-width: 75%;
+}*/
+tr.expenses_table_blue_header th{
+    padding: 5px 0px; 
+    font-style: italic; 
+    color: black; 
+    border: 1px solid #666666; 
+    background: #8db4e2; 
+    font-weight: bold; 
+    font-size: 15px; 
+    text-align: center;
+}
+.fwa_calculator_container .expenses_table tr td.expenses_table_red_bg{
+   background: #e6b8b7;
+}
+.fwa_calculator_container .expenses_table tr td{
+    padding: 5px 6px;
+    color: #000000;
+    background: #F7F9FA;
+    text-align: right;
+}
+.fwa_calculator_container .expenses_table tr td:first-child{
+    padding: 3px 8px;
+    min-width: 100px;
+    font-size: 14px;
+    font-style: italic;
+}
+.fwa_calculator_container .expenses_table tr:last-child{
+    
+}
+.fwa_calculator_container .expenses_table tr td input{
+    background: #FFFF1D;
+    border: solid #cccccc 1px;
+    color: #000000;
+    margin: 1px;
+    width: 80px;
+}
+
+.show_detailed_totals_tr{
+        display: none;
+    }
+
+.fwa_calculator_container .calc_section table {
+    border-collapse: collapse;
+    font-size: 15x;
+    width: 93%;
+}
+.fwa_calculator_container .calc_section label {
+    float: left;
+    min-width: 260px;
+}
+.fwa_calculator_container.valuation_calculator .calc_section label {
+    min-width: 310px;
+}
+
+.table_row_layout div{
+    border: 1px solid #dddddd;
+    text-align: right;
+    min-width: 110px;
+    padding: 5px;
+}
+.table_row_layout div:first-child{
+    font-weight: bold;
+    text-align: left;
+    min-width: 310px;
+}
+.downpayments_table .table_row_layout div:first-child{
+    background: #cccccc;
+}
+.downpayments_table .table_row_layout.first div{
+    background: #d1ab66;
+    font-weight: normal;
+    
+}
+.table_row_layout div:last-child{
+    text-align: center;
+}
+    
